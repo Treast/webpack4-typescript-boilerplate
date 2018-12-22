@@ -74,7 +74,7 @@ const config = {
   optimization,
   mode,
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'src'),
     compress: true,
     port: 8100,
     watchContentBase: true,
